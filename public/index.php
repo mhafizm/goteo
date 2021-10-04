@@ -23,6 +23,9 @@ $request = Request::createFromGlobals();
 
 ini_set('display_errors', 0);
 error_reporting(E_ALL & ~E_NOTICE & ~E_USER_DEPRECATED); // for symfony user deprecated errors
+
+// Bored? Try the hard way and fix some notices:
+//Symfony\Component\Debug\Debug::enable();
 // error handle needs to go after autoload
 set_error_handler('Goteo\Application\App::errorHandler');
 
@@ -40,7 +43,7 @@ if (Config::get('debug')) {
 if (is_array(Config::get('proxies'))) {
     $request->setTrustedProxies(
         Config::get('proxies'),
-        Request::HEADER_FORWARDED
+        Request::HEADER_X_FORWARDED_ALL
     );
 }
 
