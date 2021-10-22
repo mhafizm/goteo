@@ -23,17 +23,17 @@ debug: false
 node: goteo
 
 # Default system language
-lang: es
+lang: en
 
 # Default system language (for SQL tables)
 # (DO NO CHANGE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
 sql_lang: es
 
 # Default timezone
-timezone: Europe/Madrid
+timezone: Asia/Kuala_Lumpur
 
 # Default public currency for the website
-currency: EUR
+currency: MYR
 
 # Force using https protocol
 ssl: false
@@ -245,11 +245,11 @@ filesystem:
 # Mail transport
 mail:
     # receiving emails
-    mail:         info@example.com     # Main
-    contact:      info@example.com     # consulting head
-    manager:      manager@example.com  # accounts manager
-    fail:         dev@example.com      # dev head
-    log:          sitelog@example.com  # Loggin mail
+    mail:         testmailsaqa@gmail.com     # Main
+    contact:      testmailsaqa@gmail.com     # consulting head
+    manager:      testmailsaqa@gmail.com  # accounts manager
+    fail:         testmailsaqa@gmail.com      # dev head
+    log:          testmailsaqa@gmail.com  # Loggin mail
 
     # allowed addresses while in BETA/LOCAL env in PREG format
     beta_senders: "(.+)example\\.org|(.+)example\\.com"
@@ -263,17 +263,17 @@ mail:
         # root: 'Root'
 
     transport:
-        from:          noreply@example.com
+        from:          testmailsaqa@gmail.com
         name:          Goteo Sender
         type:          smtp
         # if type is smtp:
         smtp:
             auth:     true
             secure:   ssl
-            host:     smtp.example.com
+            host:     smtp.gmail..com
             port:     587
-            username: smtp-usermail
-            password: smtp-password
+            username: testmailsaqa@gmail.com
+            password: ugwgbpdktlbfghxd
 
     quota:
         total: 50000  # Maximum sending quota in 24 hours time (useful for SMTP servers like Amazon SES)
@@ -358,7 +358,7 @@ analytics:
 
 # Default required rewards
 rewards:
-    required: 3
+    required: 1
 
 # Institutional sections for the blog
 blog:

@@ -61,6 +61,15 @@ $this->section('main-content');
                         </label>
 
                     </div>
+                    <div class="checkbox no-tip">
+                        <label>
+                            <input class="no-margin-checkbox big-checkbox" type="checkbox" name="anonymous" id="anonymous" value="1"<?= $this->skip_login && !$this->name ? ' checked="checked"' : ''?>>
+                                <p class="label-checkbox">
+                                <?= $this->text('invest-akad') ?>
+                                </p>
+                        </label>
+
+                    </div>
 
                     <?php if(!$this->skip_login && array_key_exists('pool', $this->pay_methods)): ?>
                     <div class="checkbox no-tip">

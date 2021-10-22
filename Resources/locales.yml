@@ -7,31 +7,31 @@ en:
 es:
     name: Español
     short: ES
-    public: true
+    public: false
     locale: es_ES
     fallback: en
 ca:
     name: Català
     short: CAT
-    public: true
+    public: false
     locale: ca_ES
     fallback: es
 eu:
     name: Euskara
     short: EUSK
-    public: true
+    public: false
     locale: eu_ES
     fallback: es
 gl:
     name: Galego
     short: GAL
-    public: true
+    public: false
     locale: gl_ES
     fallback: es
 ast:
     name: Asturiano
     short: AST
-    public: true
+    public: false
     locale: as_ES
     fallback: es
 oc: 
@@ -43,13 +43,13 @@ oc:
 fr:
     name: Français
     short: FRA
-    public: true
+    public: false
     locale: fr_FR
     fallback: en
 it:
     name: Italiano
     short: ITA
-    public: true
+    public: false
     locale: it_IT
     fallback: en
 he:
@@ -61,13 +61,13 @@ he:
 nl:
     name: Dutch
     short: NL
-    public: true
+    public: false
     locale: nl_NL
     fallback: en
 de:
     name: Deutsch
     short: DE
-    public: true
+    public: false
     locale: de_DE
     fallback: en
 el:
@@ -103,7 +103,7 @@ tr:
 sv:
     name: Svenska
     short: SV
-    public: true
+    public: false
     locale: sv_SE
     fallback: en
 fil:
@@ -117,6 +117,12 @@ id:
     short: IND
     public: false
     locale: id_ID
+    fallback: en
+ms:
+    name: Bahasa Malaysia
+    short: MY
+    public: true
+    locale: ms_MY
     fallback: en
 ja:
     name: 日本語
