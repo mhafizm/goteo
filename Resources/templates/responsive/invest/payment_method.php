@@ -65,7 +65,7 @@ $this->section('main-content');
                         <label>
                             <input class="no-margin-checkbox big-checkbox" type="checkbox" name="anonymous" id="anonymous" value="1"<?= $this->skip_login && !$this->name ? ' checked="checked"' : ''?>>
                                 <p class="label-checkbox">
-                                <?= $this->text('invest-akad') ?>
+                                <?= $this->project->spread ?>
                                 </p>
                         </label>
 

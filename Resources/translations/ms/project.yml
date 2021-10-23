@@ -1,7 +1,7 @@
 ---
 contract-paypal_account: 'Email address vinculated to your Paypal account:'
 currency-switch: CONVERT
-overview-field-spread: Dissemination
+overview-field-spread: Akad
 personal-field-accounts: 'Project accounts'
 project-about-title: 'About this project'
 project-call-got: 'The project already has raised <strong>%s</strong> from <strong>%s</strong>'
@@ -100,7 +100,7 @@ project-removed-translation-ko: 'Error while removing translation!'
 project-social-commitment-title: 'Social commitment'
 project-create-title: 'The project starts'
 project-create-subtitle-alert: '<strong>WOOOOW!</strong><p>Let’s go further! Now it’s time to sum up the project in a few words</p>'
-project-create-minimum-field: 'Minimum (€)'
+project-create-minimum-field: 'Minimum (RM)'
 project-create-minimum-calculate-button: 'Counting'
 project-create-minimum-alert: '<strong>BRAVOOO!</strong><p>Let''s go ahead! Think of how much money you need, click on counting and find out how many co-financiers you will need to get, through our average donation.</p>'
 project-create-minimum-calculated-alert: '<strong>VERY WELL!</strong><p>Do you think you can get around this number of people? If yes, go ahead! Otherwise, plan again your minimum budget and count again!</p>'
