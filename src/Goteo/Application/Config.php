@@ -259,7 +259,8 @@ class Config {
 		// Adding Pool (internal credit) payment method
 		Payment::addMethod('Goteo\Payment\Method\PoolPaymentMethod');
 		// Adding Paypal payment method
-		Payment::addMethod('Goteo\Payment\Method\PaypalPaymentMethod');
+		//Payment::addMethod('Goteo\Payment\Method\PaypalPaymentMethod');
+		Payment::addMethod('Goteo\Payment\Method\ToyyibpayPaymentMethod');
 		// Adding Cash non-public payment method (manual admin investions)
 		Payment::addMethod('Goteo\Payment\Method\CashPaymentMethod', true);
 

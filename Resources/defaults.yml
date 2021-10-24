@@ -183,6 +183,11 @@ payments:
         active: false
 
     # Additional custom payment methods should be added here
+    toyyibpay:
+        active: true
+        testMode: true
+        userSecretKey: ew9t175g-18sn-zmiy-skbt-crkg8952e482
+        categoryCode: as9ili1e
 
 # Database stuff
 db:
