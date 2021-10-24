@@ -29,7 +29,7 @@ use Goteo\Model\Invest;
 use Goteo\Model\User;
 use Goteo\Payment\Payment;
 use Goteo\Payment\PaymentException;
-use Goteo\Model\User\Donor;
+//use Goteo\Model\User\Donor;
 
 class PoolController extends \Goteo\Core\Controller {
 
@@ -334,8 +334,8 @@ class PoolController extends \Goteo\Core\Controller {
                 'invest_address' => $invest_address,
                 'invest_errors' => $errors,
                 'step' => 3,
-                'legal_entities' => Donor::getLegalEntities(),
-                'legal_documents' => Donor::getLegalDocumentTypes()
+                'legal_entities' => '',
+                'legal_documents' => ''
             ]
         );
     }

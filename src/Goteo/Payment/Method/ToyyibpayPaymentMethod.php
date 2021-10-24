@@ -70,27 +70,10 @@ class ToyyibpayPaymentMethod extends AbstractPaymentMethod {
         $invest = $this->getInvest();
 
         $payment = $gateway->completePurchase([
-                'userSecretKey' => 'ew9t175g-18sn-zmiy-skbt-crkg8952e482',
-                'categoryCode' => 'as9ili1e',
-                'billName' => 'Product Name',
-                'billDescription' => 'testing only',
-                'billPriceSetting'=> 1,
-                'billPayorInfo'=> 1,
-                'billAmount'=> (float) $this->getTotalAmount(),
-                'billReturnUrl'=>$this->getCompleteUrl(),
-                'billCallbackUrl'=>$this->getCompleteUrl(),
-                'billExternalReferenceNo' => 'ORDER123',
-                'billTo'=>'Customer Name',
-                'billEmail'=>'customer@sampleemail.test',
-                'billPhone'=>'0123456789',
-                'billPaymentChannel'=> '2',
-                'billDisplayMerchant'=> 1,
-                'billContentEmail' => 'Sample email content',
-                'billChargeToCustomer' => 2
+                'billCode' => 'dcb9eqb5'
 
         ]);
-
-
+        echo  $request->request->get('billCode');
         return $payment->send();
 
 
