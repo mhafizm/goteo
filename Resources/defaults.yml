@@ -212,7 +212,7 @@ db:
 
 # HTML Metas
 meta:
-    title:       --meta-title--       # Html default <title>
+    title:       --tawfeq--       # Html default <title>
     description: --meta-description-- # Html default <meta description>
     keywords:    --keywords--         # Html default <meta keywords>
     author:      --author--           # Html default <meta author>
@@ -270,7 +270,7 @@ mail:
         smtp:
             auth:     true
             secure:   ssl
-            host:     smtp.gmail..com
+            host:     smtp.gmail.com
             port:     587
             username: testmailsaqa@gmail.com
             password: ugwgbpdktlbfghxd
