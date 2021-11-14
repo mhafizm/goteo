@@ -7,7 +7,7 @@
       <?php elseif($this->premium): ?>
       <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/logo-fg-white.png') ?>" class="logo premium" alt="Goteo"></a>
       <?php else: ?>
-      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/goteo-white.svg') ?>" class="logo" alt="Goteo"></a>
+      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/cempaka.png') ?>" class="logo" alt="Goteo"></a>
       <?php endif ?>
       <?php $this->stop(); ?>
     </div><!--/.navbar-header -->
@@ -32,7 +32,7 @@
       <div class="powered hidden-xs">
       <span><?= $this->text('call-header-powered-by') ?></span>
         <a href="/">
-          <img height="20" src="<?= '/assets/img/goteo-white.svg' ?>" >
+          <img height="20" src="<?= '/assets/img/cempaka.png' ?>" >
         </a>
       </div>
       <?php endif ?>
