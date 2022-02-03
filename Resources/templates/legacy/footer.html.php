@@ -50,7 +50,7 @@ $sponsors   = Sponsor::getList();
                     <li><a href="/discover/view/success"><?php echo Text::get('discover-group-success-header') ?></a></li>
                     <li><a href="/discover/view/fulfilled"><?php echo Text::get('discover-group-fulfilled-header') ?></a></li>
                     <li><a href="/discover/view/archive"><?php echo Text::get('discover-group-archive-header') ?></a></li>
-                    <li><a href="/project/create"><?php echo Text::get('regular-create') ?></a></li>
+                    <!--li><a href="/project/create"><?php echo Text::get('regular-create') ?></a></li-->
                 </ul>
             </div>
 

@@ -350,7 +350,7 @@ oauth:
         active: false
 
     openid:
-        active: true
+        active: false
 
 # Optional analytics ID's
 # Example:

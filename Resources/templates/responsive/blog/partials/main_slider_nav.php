@@ -1,5 +1,6 @@
 <nav>
     <ul class="list-inline navbar-right hidden-xs">
+       <!--
         <li>
             <a href="<?= $this->get_config('url.main') ?>" class="scroller">
                 <?= $this->text('blog-nav-platform') ?>
@@ -15,6 +16,7 @@
                 <?= $this->text('regular-create') ?>
             </a>
         </li>
+       -->
         <!--
         <li>
             <a href="#search" class="search">

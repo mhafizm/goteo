@@ -227,7 +227,7 @@ class ProjectValidationEvent extends \Goteo\Console\Event\FilterProjectEvent
             $res = round(100 * ($total - $count1)/$total);
         }
         // rewards required >= 1, default 3
-        $rewards_required = abs(intval(Config::get('rewards.required'))) ?: 3;
+        $rewards_required = abs(intval(Config::get('rewards.required'))) ?: 1;
         if($total < $rewards_required) {
             $this->errors['rewards'][] = 'rewards_required';
             $res *= $total / $rewards_required;

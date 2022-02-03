@@ -154,6 +154,7 @@ class Cost extends \Goteo\Core\Model {
 
 	public static function types() {
 		return array (
+                        'general'=>Text::get('cost-type-general'),
 			'task'=>Text::get('cost-type-task'),
 			'structure'=>Text::get('cost-type-structure'),
 			'material'=>Text::get('cost-type-material')

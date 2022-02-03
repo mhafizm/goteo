@@ -63,7 +63,7 @@ $this->section('main-content');
                     </div>
                     <div class="checkbox no-tip">
                         <label>
-                            <input class="no-margin-checkbox big-checkbox" type="checkbox" name="anonymous" id="anonymous" value="1"<?= $this->skip_login && !$this->name ? ' checked="checked"' : ''?>>
+                            <input class="no-margin-checkbox big-checkbox" required="required" type="checkbox" name="anonymous" id="anonymous" value="1"<?= $this->skip_login && !$this->name ? ' checked="checked"' : ''?>>
                                 <p class="label-checkbox">
                                 <?= $this->project->spread ?>
                                 </p>

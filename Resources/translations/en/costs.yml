@@ -1,8 +1,9 @@
 ---
 cost-type-lend: Loan
-cost-type-material: Material
-cost-type-structure: Infrastructure
-cost-type-task: Task
+cost-type-general: General
+cost-type-material: Corrective Maintenance
+cost-type-structure: Preventive Maintenance
+cost-type-task: Cost
 costs-field-amount: Value
 costs-field-cost: Expense
 costs-field-date_from: From
@@ -10,8 +11,8 @@ costs-field-date_until: Until
 costs-field-dates: Dates
 costs-field-description: Description
 costs-field-required_cost: 'This expense is'
-costs-field-required_cost-no: Supplemental
-costs-field-required_cost-yes: Necessary
+costs-field-required_cost-no: Operating Expenditure
+costs-field-required_cost-yes: Capital Expenditure
 costs-field-resoure: 'Other resources'
 costs-field-schedule: 'Tasks schedule'
 costs-field-type: Type

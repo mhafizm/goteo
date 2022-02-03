@@ -8,7 +8,7 @@
 
     <h2>
         <?= $this->text('profile-my_projects-header') ?>
-        <a class="pull-right btn btn-lg btn-fashion" href="/project/create"><?= $this->text('regular-create') ?></a>
+        <!--a class="pull-right btn btn-lg btn-fashion" href="/project/create"><?= $this->text('regular-create') ?></a-->
     </h2>
 
     <div class="projects-container" id="my-projects-container">

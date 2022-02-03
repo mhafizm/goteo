@@ -4,7 +4,7 @@
             <?= $this->text('home-projects-title') ?>
         </h2>
 
-        <?= $this->insertif('home/partials/projects_nav') ?>
+       <?php echo "&nbsp";?>
 
     </div>
     <div class="container" id="projects-container">
